@@ -16,16 +16,11 @@ In a new terminal window, use HTTPie to make a GET request at the URL of the API
 http http://127.0.0.1:5000/ query=="That was pretty entertaining"
 
 3. Example of successful output.
-HTTP/1.0 200 OK
-Content-Length: 57
-Content-Type: application/json
-Date: Tue, 21 Aug 2018 19:04:04 GMT
-Server: Werkzeug/0.14.1 Python/3.6.3
+![image01](https://github.com/eddiecityu/Sentiment-Classifier-as-REST-API/blob/master/image/flask-rest-setup_output2.JPG) 
 
-{
-    "confidence": 0.78,
-    "prediction": "Positive"
-}
+4. Another example of query "that movie was boring"
+![image02](https://github.com/eddiecityu/Sentiment-Classifier-as-REST-API/blob/master/image/flask-rest-setup_output.JPG) 
+
 Deploying the Flask app on an EC2 instance.
 
 Appendix
