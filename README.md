@@ -7,7 +7,7 @@ ___
 
 ## Setup
 
-- [x] `pip install flask-restful`
+`pip install flask-restful`
 
 Run the Flask API locally for testing. Go to directory with app.py.
 python app.py
