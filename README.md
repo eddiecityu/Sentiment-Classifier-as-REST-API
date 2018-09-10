@@ -9,19 +9,22 @@ ___
 
 `pip install flask-restful`
 
-Run the Flask API locally for testing. Go to directory with app.py.
+1. Run the Flask API locally for testing. Go to directory with app.py.
 python app.py
 
-In a new terminal window, use HTTPie to make a GET request at the URL of the API.
+2. Install the httpie
+pip3 install httpie
+
+3. In a new terminal window, use HTTPie to make a GET request at the URL of the API.
 http http://127.0.0.1:5000/ query=="That was pretty entertaining"
 
-3. Example of successful output.
+4. Example of successful output.
 ![image01](https://github.com/eddiecityu/Sentiment-Classifier-as-REST-API/blob/master/image/flask-rest-setup_output2.JPG) 
 
-4. Another example of query "that movie was boring"
+5. Another example of query "that movie was boring"
 ![image02](https://github.com/eddiecityu/Sentiment-Classifier-as-REST-API/blob/master/image/flask-rest-setup_output.JPG) 
 
-Deploying the Flask app on an EC2 instance.
+Deploying the Flask app on an EC2/EC3 instance.
 
 Appendix
 Virtual Environment
@@ -34,6 +37,7 @@ virtualenv name-of-env
 source env/bin/activate
 
 3. Go to app.py directory where requirements.txt is also located
-Install required packages from requirements.txt
+   Install required packages from requirements.txt
+
 4. pip install -r requirements.txt
-You will only have to install the requirements.txt when working with a new virtual environment.
+   You will only have to install the requirements.txt when working with a new virtual environment.
